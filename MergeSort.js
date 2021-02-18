@@ -14,7 +14,9 @@ function mergeSort(array){
     let right = array.slice(middle, array.length);
 
     left = mergeSort(left);
+    //console.log(left)
     right = mergeSort(right);
+    //console.log(right)
     return merge(left, right, array);
 }
 
