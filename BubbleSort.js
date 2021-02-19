@@ -23,4 +23,4 @@ function bubbleSort(array) {
   return array;
 }
 
-module.exports = bubbleSort;
+module.exports = bubbleSort,swap;
